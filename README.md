@@ -107,13 +107,6 @@ Generated visualizations:
 * Actual vs Predicted Plot
 * Feature Importance Plot
 
-### Step 7: Model Saving
-
-The best-performing model was saved using:
-
-```python
-joblib.dump(best_model, "best_house_price_model.pkl")
-```
 
 ---
 
@@ -148,21 +141,14 @@ best_house_price_model.pkl
 
 ---
 
-## Folder Structure
+## Structure
 
-```text
-House-Price-Prediction/
-│
 ├── Real_Estate.csv
 ├── House_Price_Prediction.ipynb
-├── best_house_price_model.pkl
-├── model_results.csv
 ├── README.md
-│
-└── Result_Images/
-    ├── Model_Comparison.png
-    ├── Actual_vs_Predicted.png
-    └── Feature_Importance.png
+├── Model_Comparison.png
+├── Actual_vs_Predicted.png
+
 ```
 
 
